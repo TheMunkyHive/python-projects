@@ -1,6 +1,6 @@
-# General Project Strategy: Class LinkManager
+# General Project Strategy: LinkManager
 
-1. [Brief title of the project](#1-class-linkmanager-in-python)
+1. [Brief title of the project](#1-linkmanager-in-python)
 2. [Write a brief description of the project](#2-description)
     - with requirements and technology used
 3. [Create a roadmap for the project](#3-roadmap)
@@ -9,11 +9,11 @@
 
 ---
 
-#### 1. Class LinkManager in python
+#### 1. LinkManager in python
 
 #### 2. Description
 
-Create a class to manage a link database in python, flask and sqlite
+Create a webapp to manage a link database in python, flask and sqlite
 with the following requirements:
 
 - Python and flask as framework (frontend/backend)
