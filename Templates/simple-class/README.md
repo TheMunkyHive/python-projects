@@ -63,7 +63,7 @@ Class 'LinkManager' with the following methods:
 
 #### 4. Implementation
 
-[] Class LinkManager
-[] Database Links
-[] HTML Frontend
-[] Design
+- [ ] Class LinkManager
+- [ ] Database Links
+- [ ] HTML Frontend
+- [ ] Design
