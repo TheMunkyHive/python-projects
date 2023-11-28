@@ -1,15 +1,16 @@
 # General Project Strategy: LinkManager
 
-1. [Brief title of the project](#1-linkmanager-in-python)
+1. [Brief title of the project](#1-project-title)
 2. [Write a brief description of the project](#2-description)
-    - with requirements and technology used
 3. [Create a roadmap for the project](#3-roadmap)
 4. [Explain echt step of the roadmap in detail](#4-design)
 5. [Implementation](#4-implementation)
 
 ---
 
-#### 1. LinkManager in python
+#### 1. Project Title
+
+LinkManager in python / flask / SQLite
 
 #### 2. Description
 
@@ -22,27 +23,28 @@ with the following requirements:
     template engine
 - Styling of the webapp with css
 
-Technology:
-
-Python/Flask Environment, Jinja, SQLite, HTML, CSS
+Technology: Python/Flask Environment, Jinja, SQLite, HTML, CSS
 
 #### 3. Roadmap
 
-3.1 Class LinkManager 
-3.2 Database Schema
-3.3 HTML Frontend with webform
-3.4 Styling
+- Class Links
+- Database Schema
+- HTML Frontend with webform
+- Styling
+
+---
 
 #### 4. Design
 
-4.1 Class LinkManager
+4.1 Class Links
 
-Class 'LinkManager' with the following methods:
+Create a Class 'Links' with the following methods:
 
-- addLink (Adds a link to the database)
-- editLink (Edits an existing Link and update the database)
-- deleteLink (Deletes a Link from the database)
-- showLink (Displays all Links in the Database)
+- add (Adds a link to the database)
+- edit (Edits an existing Link and update the database)
+- delete (Deletes a Link from the database)
+- show (Displays all Links in the Database)
+- update (Updates 'new' or 'visted' link status)
 
 4.2 Database Schema
 
@@ -60,10 +62,38 @@ Class 'LinkManager' with the following methods:
 
 4.4 Styling
 - Styling of the HTML body and page elements
+- Resource: Semantic UI (https://semantic-ui.com/introduction/getting-started.html)
+  CDN:  
+  
+    ```html
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+    ```
+
+---
 
 #### 4. Implementation
 
-- [ ] Class LinkManager
+- [ ] Class 'Links'
 - [ ] Database Links
 - [ ] HTML Frontend
 - [ ] Design
+
+1. Class 'Links'
+
+- Files: 
+
+```python
+    # File linkClass.py:
+    
+```
+
+```python
+    # File app.py:
+    from linkClass import Links
+```
+
+2. Database
+
+Note: The name of the row-counter in sqlite3 = 'ROWID'. The id will be automatically added
+      when a table is created.
