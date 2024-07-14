@@ -1,2 +1,7 @@
-# python-projects
-Python, Flask, SQLite webapps for learning purposes
+# Python Projects
+
+Python, Flask, 
+SQLite,
+webapps 
+
+... for learning purposes
